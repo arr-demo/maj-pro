@@ -33,6 +33,10 @@ app.get('/ranks', (req, res) => {
     res.render('ranks')
 })
 
+app.get('/problem', (req, res) => {
+    res.render('problem')
+})
+
 //Problem page
 app.get('/problem/:id', (req, res) => {
     res.send('Hello, this is the Problem page.')

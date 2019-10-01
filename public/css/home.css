@@ -119,3 +119,32 @@ cp{
 .vsmall-text {
     font-size: .8rem;
 }
+
+
+.problem-head{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.problem-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: darkgray;
+}
+
+.problem-div{
+    background-color: rgb(251, 251, 251)
+}
+
+.problem-code{
+    background-color: #fff;
+    padding: 15px;
+    font-family: 'Fira Code', monospace;
+}
+
+.editor{
+    height: 375px;
+}

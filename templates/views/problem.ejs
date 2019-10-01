@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Problem</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <% include header.ejs %>
+
+    <section class="hero is-info">
+            <div class="hero-body">
+              <div class="container">
+                    <h1 class="large-heading">Grading Students</h1>
+              </div>
+            </div>
+    </section>
+
+    <section class="section problem">
+        <div class="container">
+           <div class="columns is-variable is-7">
+               <div class="column is-three-quarters problem-div">
+                   <p class="problem-head">Problem Statement</p>
+                   <p class="prblem-text">HackerLand University has the following grading policy:
+                        <br>
+                        Every student receives a  in the inclusive range from 0 to 2. <br>
+                        Any grade less than 5 is a failing grade. <br>
+                        Sam is a professor at the university and likes to round each student's  according to these rules <br>
+                        
+                    </p>
+                    <p class="problem-head">Input Format</p>
+                    <p class="prblem-text">The first line contains a single integer, , the number of students.
+                            Each line  of the  subsequent lines contains a single integer, , denoting student 's grade.
+                    </p>
+                    <p class="problem-head">Output Format</p>
+                    <p class="prblem-text">For each grade, print the rounded grade on a new line.
+                    </p>
+                    <p class="problem-head">Sample Input</p>
+                    <p class="problem-code">
+                        4 <br>
+                        7 <br>
+                        8 <br>
+                    </p>
+                    <p class="problem-head">Sample Output</p>
+                    <p class="problem-code">
+                        45 <br>
+                        56 <br>
+                    </p>
+                    <form action="">
+                        <p class="problem-head">Code here:</p>
+                        <pre class="editor" id="editor">var lol = function(ask, answer) 
+    //Some code
+    //Some more code
+}
+                        </pre>
+                        <br>
+                        <div class="field">
+                                <label class="label">Language</label>
+                                <div class="control">
+                                  <div class="select">
+                                    <select>
+                                      <option>C</option>
+                                      <option>C++</option>
+                                      <option>Java</option>
+                                      <option>Python</option>
+                                      <option>Ruby</option>
+                                      <option>JavaScript</option>
+                                    </select>
+                                  </div>
+                                </div>
+                        </div>
+                        <div class="field is-grouped">
+                                <p class="control">
+                                  <a class="button is-warning">
+                                    Compile
+                                  </a>
+                                </p>
+                                <p class="control">
+                                  <a class="button is-info">
+                                    Execute
+                                  </a>
+                                </p>
+                                <p class="control">
+                                        <a class="button is-success">
+                                          Submit
+                                        </a>
+                                </p>
+                        </div>
+                    </form>
+                    
+               </div>
+               <div class="column is-one-quarter">
+
+               </div>
+           </div>
+        </div>
+       
+    </section>
+
+
+    <% include footer.ejs %>  
+    <script src="js/nav.js"></script>
+    <script src="js/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/eclipse");
+        editor.session.setMode("ace/mode/javascript");
+        editor.setFontSize("16px")
+    </script>
+</body>
+</html>
