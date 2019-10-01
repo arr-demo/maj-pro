@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <% include header.ejs %>
+
+    <section class="hero is-info">
+            <div class="hero-body">
+              <div class="container">
+                    <h1 class="large-heading">Create Your Account</h1>
+                    <p class="small-text">Register now to participate.</p>
+                
+                
+              </div>
+            </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="register-head">
+                <!-- <h1 class="large-heading">Create Your Account</h1>
+                <p class="small-text">Register now to participate.</p> -->
+                <h1 class="little-title">Sign Up Form</h1>
+            </div>
+            <div class="register-form">
+                <form action="" id="register">
+                    <div class="field">
+                            <label class="label">Full Name</label>
+                            <div class="control">
+                                <input class="input large-input" type="text" placeholder="Enter your full name">
+                            </div>
+                    </div>
+                   
+                    <div class="field">
+                            <label class="label">Year</label>
+                            <div class="control">
+                              <div class="select">
+                                <select>
+                                  <option>Select year</option>
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                </select>
+                              </div>
+                            </div>
+                    </div>
+                    <div class="field">
+                            <label class="label">Branch</label>
+                            <div class="control">
+                              <div class="select">
+                                <select>
+                                  <option>Select branch</option>
+                                  <option>CSE</option>
+                                  <option>ECE</option>
+                                  <option>IT</option>
+                                  <option>EEE</option>
+                                </select>
+                              </div>
+                            </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control">
+                            <input class="input large-input" type="text" placeholder="Enter a valid email address">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Password</label>
+                        <div class="control">
+                            <input class="input large-input" type="password" placeholder="Enter a strong password">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Confirm Password</label>
+                        <div class="control">
+                            <input class="input large-input" type="password" placeholder="Confirm password">
+                        </div>
+                    </div>
+                    <div class="field is-grouped">
+                            <p class="control">
+                              <a class="button is-link">
+                                Submit
+                              </a>
+                            </p>
+                            <p class="control">
+                              <a class="button is-light">
+                                Cancel
+                              </a>
+                            </p>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <p class="vsmall-text">By clicking Submit, you agree to abide by our terms and conditions.</p>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+       
+    </section>
+
+
+    <% include footer.ejs %>  
+    <script src="js/nav.js"></script>
+</body>
+</html>

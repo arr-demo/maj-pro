@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 
 //Sign Up page
 app.get('/register', (req, res) => {
-    res.send('Hello, this is the Sign Up page')
+    res.render('register')
 })
 
 //Login Page
