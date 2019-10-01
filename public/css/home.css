@@ -54,6 +54,10 @@ html, body{
     .little-title{
         /* padding-left: 30px; */
     }
+
+    .empty-div{
+        height: 400px;
+    }
 }
 
 
@@ -71,6 +75,10 @@ html, body{
 
     .card-text{
         margin-bottom: 21px;
+    }
+
+    .empty-div {
+        height: 250px;
     }
 }
 
