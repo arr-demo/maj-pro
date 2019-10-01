@@ -136,11 +136,11 @@ cp{
 }
 
 .problem-div{
-    background-color: rgb(251, 251, 251)
+    /* background-color: rgb(251, 251, 251) */
 }
 
 .problem-code{
-    background-color: #fff;
+    background-color: rgb(235, 234, 234);
     padding: 15px;
     font-family: 'Fira Code', monospace;
 }
