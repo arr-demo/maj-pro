@@ -1,0 +1,75 @@
+html, body{
+    font-family: 'Noto Sans TC', sans-serif !important;
+}
+
+.hero-text h1 {
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    
+}
+
+.card-item{
+    text-align: center;
+}
+
+.card-item h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-head{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.card-text {
+    margin-top: 10px !important;
+    font-weight: 200;
+    color: darkgray;
+}
+
+.card-image {
+    width: 100px;
+}
+.card-row {
+    margin-top: 30px;
+}
+.mt20{
+    margin-top: 20px;
+}
+
+.little-title{
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+
+
+@media (min-width: 1280px) {
+    .little-title{
+        /* padding-left: 30px; */
+    }
+}
+
+
+@media only screen and (min-device-width : 319px) and (max-device-width : 480px) {
+
+    .hero-text h1 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+    .hero-text h2 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        
+    }
+
+    .card-text{
+        margin-bottom: 20px;
+    }
+}
