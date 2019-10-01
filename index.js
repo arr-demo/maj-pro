@@ -30,7 +30,7 @@ app.get('/login', (req, res) => {
 
 //Leaderboard Page
 app.get('/ranks', (req, res) => {
-    res.send('Hello, this is the Leaderboard page')
+    res.render('ranks')
 })
 
 //Problem page

@@ -1,0 +1,79 @@
+<!--This is the Leaderboards page
+    The url of this page is: /ranks
+    Format: EJS
+    Author: Mohammed Abdul Rub
+    Framework: Bulma   -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <% include header.ejs %>
+    <section class="hero is-info">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">
+                  Leaderboard
+                </h1>
+                
+              </div>
+            </div>
+    </section>
+
+    <section id="rank-table">
+        <div class="container">
+            <table align="center" class="table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Name</th>
+                            <th>Branch</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th>Aziz</th>
+                            <th>CSE</th>
+                            <th>23</th>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th>Syed Saqlain Ahmed</th>
+                            <th>CSE</th>
+                            <th>22</th>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <th>Shaik</th>
+                            <th>ECE</th>
+                            <th>20</th>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <th>Syed</th>
+                            <th>IT</th>
+                            <th>05</th>
+                        </tr>
+                    </tbody>
+            </table>
+        </div>
+        
+    </section>
+
+
+
+    <% include footer.ejs %>
+    
+</body>
+</html>

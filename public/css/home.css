@@ -73,3 +73,11 @@ html, body{
         margin-bottom: 21px;
     }
 }
+
+cp{
+    margin-top: 30px;
+}
+
+#rank-table {
+    padding: 30px;
+}
