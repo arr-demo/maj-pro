@@ -25,7 +25,7 @@ app.get('/register', (req, res) => {
 
 //Login Page
 app.get('/login', (req, res) => {
-    res.send('Hello, this is the Login Page')
+    res.render('login')
 })
 
 //Leaderboard Page
